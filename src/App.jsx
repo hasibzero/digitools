@@ -1,6 +1,8 @@
+import Hero from './components/Hero'
+import StatsBanner from './components/StatsBanner'
+
 import { useState } from 'react'
 
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -8,7 +10,8 @@ function App() {
 
   return (
     <>
-      
+    <Hero/>
+    <StatsBanner></StatsBanner>
     </>
   )
 }
