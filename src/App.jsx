@@ -7,6 +7,7 @@ import { useState } from 'react'
 
 import './App.css'
 import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
     <StepsSection></StepsSection>
     <PricingSection></PricingSection>
     <CTA></CTA>
+    <Footer></Footer>
     </>
   )
 }

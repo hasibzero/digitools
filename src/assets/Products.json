@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic tools to create a professional resume quickly.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Advanced ATS optimization",
+      "Export to PDF & DOCX",
+      "Cover letter builder"
+    ],
+    "icon": "Star"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "All-in-one career toolkit for job seekers.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "LinkedIn profile optimization",
+      "Interview tips",
+      "Priority support"
+    ],
+    "icon": "Rocket"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning online portfolios easily.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ portfolio layouts",
+      "Custom domain support",
+      "SEO optimization"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Toolkit",
+    "description": "Tools designed for freelancers to manage clients.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Proposal templates",
+      "Client management",
+      "Time tracking"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Pack",
+    "description": "Prepare for interviews with guided resources.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Common Q&A library",
+      "Mock interview tips",
+      "Confidence training"
+    ],
+    "icon": "Mic"
+  },
+  {
+    "id": 7,
+    "name": "Ultimate Job Suite",
+    "description": "Complete solution for job hunting success.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Everything in Pro",
+      "AI resume suggestions",
+      "Job tracking dashboard",
+      "24/7 support"
+    ],
+    "icon": "Crown"
+  },
+  {
+    "id": 8,
+    "name": "Student Pack",
+    "description": "Affordable plan for students entering the job market.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "10+ templates",
+      "Basic cover letters",
+      "Internship tips"
+    ],
+    "icon": "GraduationCap"
+  }
+]
