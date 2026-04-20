@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import StatsBanner from './components/StatsBanner'
+import StepsSection from './components/StepsSection'
 
 import { useState } from 'react'
 
@@ -11,7 +12,10 @@ function App() {
   return (
     <>
     <Hero/>
+
     <StatsBanner></StatsBanner>
+
+    <StepsSection></StepsSection>
     </>
   )
 }
