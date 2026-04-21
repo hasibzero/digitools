@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { CiPlay1 } from "react-icons/ci";
 
 
- function Hero() {
+ function Hero({ cartCount }) {
   return (
     <div className="bg-white font-sans text-slate-800 selection:bg-[#7b2ff7] selection:text-white" data-theme="light">
       
@@ -25,7 +25,7 @@ import { CiPlay1 } from "react-icons/ci";
 
           <div className="flex items-center gap-8">
             <button className="text-gray-600 hover:text-black transition-colors" aria-label="Cart">
-              <FaShoppingCart />
+              <FaShoppingCart /> {cartCount}
 
             </button>
             
