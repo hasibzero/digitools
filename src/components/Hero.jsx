@@ -24,9 +24,12 @@ import { CiPlay1 } from "react-icons/ci";
           </nav>
 
           <div className="flex items-center gap-8">
-            <button className="text-gray-600 hover:text-black transition-colors" aria-label="Cart">
-              <FaShoppingCart /> {cartCount}
-
+            <button className="relative text-gray-600 hover:text-black text-xl transition">
+              <FaShoppingCart />
+    
+              <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full ">
+              {cartCount}
+              </span>
             </button>
             
             <a href="#" className="hidden sm:block text-sm font-semibold text-gray-800 hover:text-[#7b2ff7] ">
