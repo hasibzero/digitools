@@ -1,16 +1,16 @@
-# React + Vite
+# ?? DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ?? Description
+DigiTools Platform is a modern, responsive web application for exploring and purchasing digital tools. Users can seamlessly browse through available products, add their desired digital tools to a shopping cart, review their selections, and proceed to checkout—all within a dynamic and user-friendly interface.
 
-Currently, two official plugins are available:
+## ?? Technologies Used
+- React.js
+- Tailwind CSS
+- Vite
+- JavaScript (ES6+)
+- React-Toastify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ? Features
+1. **Interactive Cart Functionality**: Users can easily add products to their cart, remove selected items individually, and proceed to checkout, which clears the cart. All actions are accompanied by real-time alert notifications using React-Toastify.
+2. **Product Browsing and Toggling**: Designed with an intuitive interface that allows users to seamlessly toggle between the main Products section and their personal Cart.
+3. **Responsive Design**: Built to offer a seamless and optimal viewing experience across a wide range of devices, from desktop monitors to mobile phones.
