@@ -84,23 +84,17 @@ import { CiPlay1 } from "react-icons/ci";
 
         </div>
 
-        {/* Right Column: Hero Graphic */}
         <div className="flex-1 w-full flex justify-end">
-          {/* Image Container with specific rounded corners and subtle shadow */}
           <div className="relative w-full max-w-[600px] aspect-[4/4.2] rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
-            {/* Using a high-quality abstract tech image from Unsplash as a placeholder 
-              to match the vibe of the original graphic.
-            */}
+            
             <img 
               src="/banner.png" 
               alt="Digital Workflow Interface" 
               className="w-full h-full object-cover object-center"
             />
-            {/* Gradient overlays to simulate the bright, faded effect from the original image */}
             <div className="absolute inset-0 bg-gradient-to-r from-white/60 via-white/20 to-transparent"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent"></div>
             
-            {/* Decorative generic UI elements overlay (Optional, to mimic the lines/nodes) */}
             <div className="absolute inset-0 opacity-40 mix-blend-overlay pointer-events-none" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
           </div>
         </div>
